@@ -51,6 +51,6 @@ class AddPostViewModel @Inject constructor(
             } catch (e: Exception) {
                 _state.update { it.copy(isLoading = false, error = "فشل في إرسال المنشور!") }
             }
-        }
+        
     }
 }
